@@ -1,0 +1,7 @@
+echo "# m08-challenge-flower-shop" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/khaledurrashid2/m08-challenge-flower-shop.git
+git push -u origin main
