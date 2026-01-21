@@ -7,3 +7,81 @@
     font-family: "Lato", sans-serif;
     font-weight: 400;
 }
+
+/* Shared codes */
+.btn-main {
+    height: 64px;
+    min-width: 150px;
+    background-color: rgba(229, 84, 115, 1);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+
+}
+
+
+
+
+/* CSS for individual sections */
+
+
+/* <!-- Hero Banner Section --> */
+ 
+
+/* <!-- Featured Flowers Section --> */
+
+
+
+/* <!-- Icons Section --> */
+
+
+/* <!-- Hot Deals Section --> */
+
+
+/* <!-- Instagram Section  --> */
+
+
+/* <!-- Latest Deals Section  --> */
+
+/* Footer Section */
+
+footer {
+    max-width: 1920px;
+    height: 450px;
+    background: rgba(17, 16, 16, 1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    justify-content: center;  
+    text-align: center;
+}
+
+.footer-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.footer-pink {
+    color: rgba(229, 84, 115, 1);
+}
+
+.footer-text {
+    font-size: 1.125rem;
+    line-height: 30px;
+    color: #ffffff;
+    max-width: 675px;
+    margin-bottom: 32px;
+}
+
+.footer-copyright {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+
