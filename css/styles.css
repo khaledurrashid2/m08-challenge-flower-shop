@@ -19,9 +19,31 @@
     border: none;
     border-radius: 8px;
     padding: 8px;
-
 }
 
+/* Heading Part (this code is shared in Feauted Flower and Instagram sections) */
+/* Heading Part */
+.heading-part {
+    max-width: 594px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;      
+    justify-content: center;  
+    text-align: center;
+}
+
+.heading-h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.heading-text {
+    font-size: 1.125rem;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
 
 
 
@@ -33,9 +55,166 @@
 
 /* <!-- Featured Flowers Section --> */
 
+.featured-flowers {
+    max-width: 1440px;
+    margin: 176px auto 0;      
+    padding: 0 24px;            
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+/* Heading Part */
+.heading-part {
+    max-width: 594px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;      
+    justify-content: center;  
+    text-align: center;
+}
+
+.heading-h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.heading-text {
+    font-size: 1.125rem;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+/* Featured Flower Cards Wrapper */
+.featured-flower-cards {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+
+/* Individual Card */
+.featured-individual-card {
+    max-width: 464px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: transparent;   
+}
+
+/* Image Container */
+.img-div {
+    width: 100%;
+    height: auto;                  
+    display: flex;
+    justify-content: center;        
+    align-items: flex-end;          
+    padding-top: 110px;             
+    border-radius: 300px 300px 0 0;
+    box-sizing: border-box;
+}
+
+/* Images */
+.img-div img {
+    width: auto;
+    height: 428px;                  
+    object-fit: cover;              
+    display: block;
+}
+
+
+
+/* Different background colors per card */
+.featured-individual-card:nth-child(1) .img-div {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-individual-card:nth-child(2) .img-div {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-individual-card:nth-child(3) .img-div {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+/* Card Title positioned below img-div */
+.card-title {
+    color: rgba(39, 39, 39, 1);
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    background: #ffffff;       
+    padding: 0 16px;           
+    display: inline-block;
+    border-radius: 4px;
+
+    margin-top: 32px;            
+    z-index: 1;
+}
+
+
+
 
 
 /* <!-- Icons Section --> */
+
+.icons-section {
+    max-width: 1440px;
+    height: 320px;
+    margin: 128px auto 0;          
+    padding: 0 24px;               
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: center;       
+    align-items: center;           
+}
+
+/* Icons Container */
+.icons-container {
+    max-width: 1090px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;           
+    justify-content: space-between;
+    align-items: center;           
+}
+
+/* Each Icon */
+.each-icon {
+    display: flex;
+    flex-direction: column;       
+    align-items: center;           
+    gap: 24px;                  
+}
+
+/* Icon Image */
+.icon-img img {
+    width: 88px;
+    height: 88px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Icon Text */
+.icon-text {
+    font-size: 1.5rem;
+    font-weight: 600;              
+    line-height: 1.2;
+    text-align: center;            
+    margin: 0;                    
+
 
 
 /* <!-- Hot Deals Section --> */
@@ -43,8 +222,39 @@
 
 /* <!-- Instagram Section  --> */
 
+.instagram-section {
+    max-width: 1440px;
+    margin: 128px auto 0;
+    padding: 0 24px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+
+/* Instagram Cards */
+.instagram-cards {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
+}
+
+/* Images */
+.instagram-cards img {
+    max-height: 396px;
+    width: auto;
+    object-fit: cover;
+    display: block;
+}
+
 
 /* <!-- Latest Deals Section  --> */
+
+
 
 /* Footer Section */
 
